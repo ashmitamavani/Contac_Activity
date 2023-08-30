@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Submit_Contact_Activity"
+    android:orientation="vertical"
+    android:background="#FFC107">
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="NAME"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/enumber"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="NUMBER"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Submit"
+        android:layout_margin="40dp"
+        android:background="#E91E63"/>
+
+
+</LinearLayout>
